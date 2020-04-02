@@ -53,12 +53,6 @@ nav .nav-item .nav-link {
     margin-bottom: 75px;
 }
 
-.btn.btn-primary.btn-lg {
-    color: black;
-    font-weight: 600;
-    background-color: rgba(59, 133, 29, 0.267);;
-    border-color: rgba(59, 133, 29, 0.267);;
-}
 
 .row.shadow-lg.p-0 {
     margin-bottom: 100px;

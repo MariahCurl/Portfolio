@@ -4,6 +4,20 @@
     color: black;
 } */
 
+#navbar-example2.navbar {
+    position: static !important;
+    background-color: rgba(59, 133, 29, 0.267) !important;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: solid darkslategrey 1px;
+}
+
+nav .nav-item .nav-link {
+    color: black !important;
+}
+
 .row {
     margin-left: 50px;
     margin-right: 50px;
@@ -49,7 +63,7 @@
     margin-right: 100px;
     margin-left: 100px;
     padding-bottom: 100px;
-    border: solid grey 5px;
+    border: solid darkslategrey 3px;
 }
 
 .aboutMe {
@@ -62,15 +76,31 @@
     font-family: Palatino, URW Palladio L, serif;
 }
 
+.projects {
+    display: inline-flex;
+    margin-bottom: 50px;
+    padding: 0 10px 0 10px;
+}
 
+.projects .card {
+    background: rgba(59, 133, 29, 0.349);
+    border: solid darkslategrey 1px;
+}
+
+
+#contact-me {
+    text-align: center !important;
+    font-size: 50px;
+    font-family: Palatino, URW Palladio L, serif;
+}
 .imgme {
     padding:100 100 100 20 ;
 }
 
 .form-box {
     font-family: Palatino, URW Palladio L, serif;
-    margin: 200 275 100 275;
-    border: 0;
+    margin: 20 275 50 275;
+    border: solid darkslategrey 1px;
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -82,4 +112,20 @@
 
 #emailHelp {
     text-emphasis-color: black;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(59, 133, 29, 0.267) !important;
+    text-align: center;
+    border-top: solid darkslategrey 1px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer p img {
+    margin: 5px;
 }
